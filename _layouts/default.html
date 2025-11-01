@@ -668,7 +668,7 @@ document.querySelectorAll('.photo-image').forEach(img => {
 
 
 
-<div style="display: flex; flex-direction: row; background-color: #666; color: white; padding: 20px; margin-bottom: 8px; font-size: 18px; border-radius: 8px;">
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; background-color: #666; color: white; padding: 20px; margin-bottom: 8px; font-size: 18px; border-radius: 8px;">
   
 
   <img src="./assets/images/pengyang.jpg"
@@ -684,18 +684,25 @@ document.querySelectorAll('.photo-image').forEach(img => {
   <div style="flex: 1;">
     <p><strong>Speaking Topics</strong></p>
     <ul style="list-style: none; padding-left: 0; color: #ffb321;"> 
-     <li>Artificial Intelligence (AI)</li>
+     <li>Towards Sustainable, Resilient, and Participatory Urban Planning: An AI-Driven Approach</li>
     </ul>
   </div>
  
-  <div style="flex: 1;">
+  <!-- <div style="flex: 1;"> -->
+  <div style="flex: 1 1 100%; margin-top: 16px;">
     <p><strong>Speaker's Notes</strong></p>
-    <p style="color: #ffb321;">TBD</p>
+    <p style="color: #ffb321;">Our urban environments stand at a critical crossroads, facing unprecedented challenges from
+       climate change and resource scarcity to social inequity. As traditional planning methodologies buckle under the weight of these complex issues, 
+       this keynote illuminates a transformative path forward, leveraging Artificial Intelligence as the catalyst for creating more sustainable, 
+       resilient, and participatory cities. Drawing from pioneering recent studies, we will journey from theory to practice, showcasing tangible 
+       AI applications that tackle critical issues—from designing energy-efficient buildings and preventing sewer overflows to revolutionizing 
+       participatory planning with human-in-the-loop feedback. This talk will offer a clear-eyed vision of both the 
+      immense opportunities and the profound challenges that lie ahead in this AI-driven urban frontier.</p>
   </div>
 </div>
 
 
-<div style="display: flex; flex-direction: row; background-color: #666; color: white; padding: 20px; margin-bottom: 8px; font-size: 18px; border-radius: 8px;">
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; background-color: #666; color: white; padding: 20px; margin-bottom: 8px; font-size: 18px; border-radius: 8px;">
   
 
   <img src="./assets/images/guangwang.jpg"
@@ -711,45 +718,26 @@ document.querySelectorAll('.photo-image').forEach(img => {
   <div style="flex: 1;">
     <p><strong>Speaking Topics</strong></p>
     <ul style="list-style: none; padding-left: 0; color: #ffb321;"> 
-     <li>Artificial Intelligence (AI)</li>
+     <li>Efficient Generative AI for Synthetic Human Activity Trace Generation</li>
     </ul>
   </div>
  
-  <div style="flex: 1;">
+  <!--<div style="flex: 1;"> -->
+  <div style="flex: 1 1 100%; margin-top: 16px;">
     <p><strong>Speaker's Notes</strong></p>
-    <p style="color: #ffb321;">TBD</p>
+    <p style="color: #ffb321;">Fine-grained human activity traces (HATs) are crucial for a wide range of real-world applications, including
+       human mobility modeling, next point-of-interest (POI) recommendation, business location optimization, trip purpose inference, and pandemic 
+       intervention. However, increasing concerns over data privacy have significantly restricted access to authentic large-scale HATs. Fortunately, r
+       ecent advances in generative AI open new opportunities to synthesize realistic yet privacy-preserving HATs that can support diverse applications.
+        Despite this promise, two key challenges remain. (i) HATs (e.g., user-level POI check-in traces) are highly irregular and dynamic. 
+        (ii) Most generative models are computationally intensive and resource-demanding. To address these challenges, we propose SynHAT, 
+        a coarse-to-fine HAT synthesis framework based on a novel spatio-temporal denoising diffusion model. Extensive experiments on 
+      four real-world datasets show the superior performance our SynHAT in terms of different spatial and temporal metrics.</p>
   </div>
 </div>
 
 
- <!-- 
-<div style="display: flex; flex-direction: row; background-color: #666; color: white; padding: 20px; margin-bottom: 8px; font-size: 18px; border-radius: 8px;">
-  
-  Speaker Info 
 
-  <img src="./assets/images/Tan Yigitcanlar.jpeg"
-       style="width:140px;height:140px;border-radius:50%;
-              object-fit:cover;margin-right:24px;flex-shrink:0;">
-
-  <div style="flex: 2;">
-    <h2 style="color: white; margin-top: 0;">Tan Yigitcanlar</h2>
-    <p style="color: #bbb;"><em>Queensland University of Technology, tan.yigitcanlar@qut.edu.au</em></p>
-  </div>
-
-
-  <div style="flex: 1;">
-    <p><strong>Speaking Topics</strong></p>
-    <ul style="list-style: none; padding-left: 0; color: #ffb321;"> 
-     <li>Artificial Intelligence (AI)</li>
-    </ul>
-  </div>
- 
-  <div style="flex: 1;">
-    <p><strong>Speaker's Notes</strong></p>
-    <p style="color: #ffb321;">TBD</p>
-  </div>
-</div>
--->
 
 
 
@@ -809,7 +797,7 @@ document.querySelectorAll('.photo-image').forEach(img => {
  
    
   <!-- <div style="flex: 1;"> -->
-  <div style="flex: 1 1 100%; margin-top: 16px;"></div>
+  <div style="flex: 1 1 100%; margin-top: 16px;">
     <p><strong>Speaker's Notes</strong></p>
     <p style="color: #ffb321;">Abstract: Over the past decade, generative AI techniques have revolutionized computer 
       vision and natural language processing. There is growing anticipation for similar breakthroughs in scientific domains, 
@@ -823,7 +811,7 @@ document.querySelectorAll('.photo-image').forEach(img => {
 </div>
 
 
-<div style="display: flex; flex-direction: row; background-color: #666; color: white; padding: 20px; margin-bottom: 8px; font-size: 18px; border-radius: 8px;">
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; background-color: #666; color: white; padding: 20px; margin-bottom: 8px; font-size: 18px; border-radius: 8px;">
   
   <!-- Speaker Info Zhe Jiang-->
 
@@ -846,7 +834,8 @@ document.querySelectorAll('.photo-image').forEach(img => {
   </div>
  
    
-  <div style="flex: 1;">
+  <!--<div style="flex: 1;"> -->
+  <div style="flex: 1 1 100%; margin-top: 16px;">
     <p><strong>Speaker's Notes</strong></p>
     <p style="color: #ffb321;">TBD</p>
   </div>
